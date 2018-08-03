@@ -1,0 +1,28 @@
+{
+  "name": "librelibras-client",
+  "description": "Front-End do Libre-Libras VC, fazendo uso da Webcam",
+  "main": "",
+  "keywords": [
+    "libras",
+    "ifms",
+    "webcam"
+  ],
+  "authors": [
+    "Renata M. de Oliveira"
+  ],
+  "license": "MIT",
+  "homepage": "www.facebook.com/renata.mdo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.7.2",
+    "angular": "^1.7.2",
+    "bootstrap": "^4.1.1"
+  }
+}

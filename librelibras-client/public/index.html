@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LIBRE-LIBRAS VC</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <link rel="icon" href="hand.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/hand.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="parallax"></div>
+        <div class="text-center">
+            <video id="myVideo" autoplay width="1280" height="520"></video>
+            <button type="button" onclick="enviar()" class="btn btn-outline-success">Enviar</button>
+            <!-- width="690" height="590" -->
+        </div>
+    </div>
+    <script src="js/controller/controller.js"></script>
+</body>
+
+</html>

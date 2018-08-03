@@ -1,0 +1,33 @@
+/* espelhar a imagem */
+video,
+canvas {  
+    transform: scale(1, 1);
+    /* Para Firefox (& IE) */
+    -webkit-transform: scale(1, 1);
+    /* Para Chrome & Opera (& Safari) */
+}
+
+.text-center{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/libreLibrasVC.png");
+
+    /* Set a specific height */
+    min-height: 800px; 
+    min-width: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    text-align: center;
+}
