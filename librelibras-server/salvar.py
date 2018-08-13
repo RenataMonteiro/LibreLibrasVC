@@ -37,7 +37,7 @@ def create_instance(file):
 def image():
 
     i = request.files['image']  # get the image
-    f = 'imagem.jpeg'
+    f = ('%s.jpeg' % time.strftime("%Y%m%d-%H%M%S"))
     i.save('%s/%s' % (PATH_TO_TEST_IMAGES_DIR, f))
 
     model = Model(classifier_type = "trees.RandomForest", classpath = "weka.jar")
